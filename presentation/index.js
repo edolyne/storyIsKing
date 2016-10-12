@@ -42,7 +42,9 @@ const Presentation = () => (
   <Spectacle theme={theme}>
     <Deck transition={["fade", "slide"]} transitionDuration={500}>
 
-      {/* Story Is King */}
+      {/*
+        Story Is King
+      */}
       <Slide transition={[]} bgImage={getImage("white1")}>
         <Heading size={1} fit caps lineHeight={1} textColor="dark-primary">
           Story
@@ -52,7 +54,9 @@ const Presentation = () => (
         </Heading>
       </Slide>
 
-      {/* Who Am I */}
+      {/*
+        Who Am I
+      */}
       <Slide transition={[]} bgImage={getImage("white1")}>
         <Heading size={2} caps textColor="primary">
           Ed Long
@@ -62,14 +66,18 @@ const Presentation = () => (
         </Heading>
       </Slide>
 
-      {/* A place that I find inspiration outside of my area of specialty is */}
+      {/*
+        A place that I find inspiration outside of my area of specialty is
+      */}
       <Slide transition={[]} bgImage={getImage("caseyImage")}>
         <Heading size={1} fit caps textColor="light-primary">
           Casey Neistat
         </Heading>
       </Slide>
 
-      {/* Casey Intro */}
+      {/*
+        Casey Intro
+      */}
       <Slide transition={[]} bgImage={getImage("black")}>
         <Fit>
           {/* 800 x 450 */}
@@ -83,7 +91,9 @@ const Presentation = () => (
         </Fit>
       </Slide>
 
-      {/* Setup The Video */}
+      {/*
+        Setup The Video
+      */}
       <Slide transition={[]} bgImage={getImage("black")}>
         <Heading size={1} fit caps textColor="light-primary">
           Why Casey?
@@ -95,7 +105,9 @@ const Presentation = () => (
         </List>
       </Slide>
 
-      {/* Story Is King Vlog */}
+      {/*
+        Story Is King Vlog
+      */}
       <Slide transition={[]} bgImage={getImage("black")}>
         {/* 800 x 450 */}
         <video width="800" height="450" controls>
@@ -106,7 +118,9 @@ const Presentation = () => (
         */}
       </Slide>
 
-      {/* Segway out of video */}
+      {/*
+        Segway out of video
+      */}
       <Slide transition={[]} bgImage={getImage("white1")}>
         <Heading size={1} fit caps lineHeight={1} textColor="primary">
           Casey's A Filmmaker.
@@ -116,7 +130,9 @@ const Presentation = () => (
         </Heading>
       </Slide>
 
-      {/* We need to stay current in our industry but we can't build in all the things */}
+      {/*
+        We need to stay current in our industry but we can't build in all the things
+      */}
       <Slide transition={[]} bgImage={getImage("white1")}>
         <Heading size={1} fit caps lineHeight={1} textColor="primary">
           FOMO
@@ -126,7 +142,10 @@ const Presentation = () => (
         </Heading>
       </Slide>
 
-      {/* The framework / tools are a supporting role to the story.  The ministries that we serve have big vision and we need to help them be able to translate that vision to people on the web. */}
+      {/*
+        The framework / tools are a supporting role to the story.
+        The ministries that we serve have big vision and we need to help them be able to translate that vision to people on the web.
+      */}
       <Slide transition={[]} bgImage={getImage("white1")}>
         <Heading size={1} caps fit textColor="dark-primary">
           Frameworks & Tools
@@ -136,31 +155,42 @@ const Presentation = () => (
         </Heading>
       </Slide>
 
-      {/* This brings us back to the fact that the story is king, but why is that so important */}
+      {/*
+        This brings us back to the fact that the story is king, but why is that so important
+      */}
       <Slide transition={[]} bgImage={getImage("white1")}>
         <Heading size={1} caps lineHeight={1} textColor="primary">
           Why is the story so important?
         </Heading>
       </Slide>
 
-      {/* Greatest story */}
+      {/*
+        Greatest story
+      */}
       <Slide transition={[]} bgImage={getImage("white1")}>
         <Heading size={3} lineHeight={1.25} textColor="dark-primary">
-          We've got the corner on the greatest story of all time that provides lasting hope, and purpose for people.
+          We've got the corner on the greatest story ever told.
         </Heading>
       </Slide>
 
-      {/* That story is the Gospel */}
+      {/*
+        That story is the Gospel
+      */}
       <Slide transition={[]} bgImage={getImage("white1")}>
         <Heading size={1} fit caps lineHeight={1} textColor="primary">
           Gospel
         </Heading>
+        <Heading fit size={3} lineHeight={1.25} textColor="dark-primary">
+          It's the one story where people can find life, lasting hope, and a real purpose.
+        </Heading>
       </Slide>
 
-      {/* The most amazing part is */}
+      {/*
+        The most amazing part is
+      */}
       <Slide transition={[]} bgImage={getImage("white1")}>
         <Heading size={4} lineHeight={1.25} textColor="dark-primary">
-          We've been gifted to be able to leverage a platform that's always evolving, and is always available to share this message of hope within the most desperate sitations.
+          We've been gifted to be able to leverage a platform that's always evolving, and is always available to share this message of hope within the most desperate situations.
         </Heading>
       </Slide>
 
@@ -181,16 +211,13 @@ const Presentation = () => (
         </Appear>
       </Slide>
 
-      {/* Let me leave you with challenge What if the church was ranked #1 on a google result for: */}
+      {/* 
+        We ask google, or our virual assistants about everything these days.
+        So let me ask you this, what if the church was ranked #1 on a google result for:
+      */}
       <Slide transition={[]} bgImage={getImage("white1")}>
         <Heading size={1} caps fit textColor="primary">
-          We just had a miscarriage
-        </Heading>
-      </Slide>
-
-      <Slide transition={[]} bgImage={getImage("white1")}>
-        <Heading size={1} caps fit textColor="primary">
-          I'm a horrible parent
+          Miscarriage
         </Heading>
       </Slide>
 
@@ -202,13 +229,7 @@ const Presentation = () => (
 
       <Slide transition={[]} bgImage={getImage("white1")}>
         <Heading size={1} caps fit textColor="primary">
-          How do I kill myself
-        </Heading>
-      </Slide>
-
-      <Slide transition={[]} bgImage={getImage("white1")}>
-        <Heading size={1} caps fit textColor="primary">
-          How to hide an affair
+          How to commit suicide
         </Heading>
       </Slide>
 
@@ -218,21 +239,31 @@ const Presentation = () => (
         </Heading>
       </Slide>
 
-      {/* And when they get to our site */}
+      {/*
+        And when they get to our site
+      */}
       <Slide transition={[]} bgImage={getImage("white1")}>
         <Text textColor="dark-primary">
           We were able to tell the story in a concise, and compelling manner.
         </Text>
       </Slide>
 
-      {/* That sounds like it could be a marketing site.  Yes, but here's the difference. */}
+      {/*
+        If your like me and you came from an agency background you might be thinking...
+        That sounds like it could be a marketing site.
+        Yes, but here's the difference.  We have the opportunity to tell that story...
+      */}
       <Slide transition={[]} bgImage={getImage("white1")}>
         <Text textColor="dark-primary">
           In a way that speaks life, hope, and healing, into the person visiting our site.
         </Text>
       </Slide>
 
-      {/* We build in the open, and if we can help encourage, and or equip your team */}
+      {/*
+        And from that place, they can then bring that same hope, and healing to others.
+        So I want you guys to leave here knowing that as a team here at NewSpring we want to help serve you.
+        We build all of our platforms in the open, and we'd love to help encourage, and or equip your team
+      */}
       <Slide transition={[]} bgImage={getImage("white1")}>
         <Heading fit size={1} textColor="primary">
           github.com/newspring
